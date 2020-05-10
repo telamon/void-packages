@@ -552,6 +552,7 @@ libbabl-0.1.so.0 babl-0.1.16_1
 libbamf3.so.2 bamf-0.5.1_1
 libicuio.so.64 icu-libs-64.1_1
 libicui18n.so.64 icu-libs-64.1_1
+libicudata.so.67 icu-libs-67.1_1
 libicudata.so.64 icu-libs-64.1_1
 libicutu.so.64 icu-libs-64.1_1
 libicuuc.so.64 icu-libs-64.1_1

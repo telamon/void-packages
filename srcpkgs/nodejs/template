@@ -1,6 +1,6 @@
 # Template file for 'nodejs'
 pkgname=nodejs
-version=13.2.0
+version=14.2.0
 revision=1
 wrksrc="node-v${version}"
 # Need these for host v8 for torque, see https://github.com/nodejs/node/pull/21079
@@ -17,7 +17,7 @@ maintainer="Enno Boland <gottox@voidlinux.org>"
 license="MIT"
 homepage="https://nodejs.org/"
 distfiles="${homepage}/dist/v${version}/node-v${version}.tar.gz"
-checksum=379dcecb721984a99dc9e16c2a096d6eb7a760d50b188582d9ce33e0478a1a5e
+checksum=8c9aa909567589e97a22b2df1cf6a8d61e0a546b4c784703e6722f13da259493
 python_version=2 #unverified
 
 build_options="ssl libuv http_parser icu nghttp2 cares"
